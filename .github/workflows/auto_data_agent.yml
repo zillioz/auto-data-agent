@@ -19,7 +19,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests beautifulsoup4 schedule
+          pip install pandas requests beautifulsoup4 schedule selenium webdriver-manager
 
       - name: Run Auto Data Agent
         run: python auto_data_agent.py
