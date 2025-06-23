@@ -22,6 +22,9 @@ jobs:
           pip install pandas requests beautifulsoup4 schedule selenium webdriver-manager
 
       - name: Run Auto Data Agent
+        env:
+        FB_EMAIL: ${{ secrets.FB_EMAIL }}
+        FB_PASSWORD: ${{ secrets.FB_PASSWORD }}
         run: python auto_data_agent.py
 
       - name: Upload output artifacts
