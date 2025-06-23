@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Source Code | IgQCA | Rocket Powered Pastebin</title>
+    <meta name="author" content="Sergio Benitez" />
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      font-src data:;
+      style-src-attr 'unsafe-inline';
+      script-src 'none'
+    ">
+    <meta name="description" content="a simple, no-frills, command-line driven
+      pastebin service powered by the Rocket web framework.">
+    <link href="https:&#x2F;&#x2F;paste.rs/IgQCA" rel="canonical">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/normalize.min.css">
+    <link rel="stylesheet" href="/code.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="code gutter">
+        <pre><span>1&#10;</span><span>2&#10;</span><span>3&#10;</span><span>4&#10;</span><span>5&#10;</span><span>6&#10;</span><span>7&#10;</span><span>8&#10;</span><span>9&#10;</span><span>10&#10;</span><span>11&#10;</span><span>12&#10;</span><span>13&#10;</span><span>14&#10;</span><span>15&#10;</span></pre>
+      </div>
+      <div class="code text">
+          <pre style="background-color:#ffffff;">
+<span style="color:#323232;">Bouw een Python-script dat:
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Advertenties scraped van: Marktplaats.nl, Facebook Marketplace (API of Selenium), AutoScout24.nl, automobile.de, eBay.nl, Amazon.nl, Schadeautos.nl;
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Focus alleen op modellen: Volkswagen Polo, Toyota Aygo, Ford Fiesta, Kia Picanto, Renault Clio, Seat Ibiza, Peugeot 108, Citroën C1, Opel Corsa, Hyundai i10, Peugeot 208, Ford Focus, Volkswagen Golf, Kia Rio, Seat Leon, Peugeot 207, Peugeot 206, Fiat 500, Mini, Opel Astra, Renault Mégane, Suzuki Swift, Volkswagen Up (en soortgelijke);
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Verrijkt per advertentie de data met een dagwaarde (via scraping ANWB Koerslijst, Autotelex of gemiddelde prijzen vergelijkbare auto’s);
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Bewaart alleen advertenties waarvan de prijs lager is dan de dagwaarde (ook met lichte schade);
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Exporteert resultaten als Excel-bestand (.xlsx) met unieke bestandsnaam (datum, tijd, platform(s));
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Maakt alle filters (budget, bouwjaar, km-stand, modellen) makkelijk aanpasbaar boven in het script;
+</span><span style="color:#323232;">
+</span><span style="color:#323232;">Implementeert robuuste foutafhandeling, logging, en duidelijke documentatie.</span></pre>
+
+      </div>
+    </main>
+  </body>
+</html>
